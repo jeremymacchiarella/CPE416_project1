@@ -22,6 +22,7 @@ setup(
         'console_scripts': [
             'draw_square_fb = gobilda_utilities.draw_square_fb:main',
             'teleop_gobilda = gobilda_utilities.teleop_twist_keyboard:main',
+            'local_costmap = gobilda_utilities.obstacle_layer:main'
         ],
     },
 )
